@@ -30,7 +30,6 @@ export function Post() {
     if (postId) getIssuesContentData(postId)
   }, [])
 
-
   return (
     <>
       {issuesContent && (
