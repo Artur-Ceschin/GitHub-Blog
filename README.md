@@ -1,27 +1,72 @@
-# React + TypeScript + Vite
+<h1 align="center">
+  <img alt="Logo" src="./public/logo.svg" alt="GitHub-Blog - Ignite ">
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![gif project](./public/github-blog-demo.gif)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1 align="center">
+    GitHub Blog
+</h1>
+<p align="center">Search by contents from GitHub</p>
 
-## Expanding the ESLint configuration
+## About this project
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This project was created to work as a personal blog, using issues from this repository as content. Please fill free to add comments if you like.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## Project UI 🎨
+
+- [Figma - GitHub Blog](https://www.figma.com/community/file/1138814951106121051)
+
+## Technologies 👩‍💻
+
+Technologies used in this project
+
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [React Router Dom](https://reactrouter.com/en/main)
+---
+
+## Requirements 💻
+
+It is necessary to have installed on your machine
+
+- [Git](https://git-scm.com/)
+- [Node](https://nodejs.org/en/)
+
+
+## Starting 🚀
+
+```bash
+# Clone this project
+$ git clone https://github.com/Artur-Ceschin/GitHub-Blog
+
+# Access
+$ cd github-blog
+
+# Install dependencies
+$ yarn
+
+# Run the project
+$ yarn dev
+
+# The server will initialize in the <http://localhost:4001>
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
+
+## License 📃
+
+This project is under license from MIT. For more details, see the [LICENSE](./LICENSE) file.
+
+### Author
+
+---
+
+Made with ❤️ by Artur Ceschin 👋🏼 Please fell free to contact me!
+<br/>
+[![Linkedin Badge](https://img.shields.io/badge/-Artur-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/artur-peres-ceschin-programador/)](https://www.linkedin.com/in/artur-peres-ceschin-programador/)
+[![Gmail Badge](https://img.shields.io/badge/-artur.ceschin@.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:artur.ceschin@gmail.com)](mailto:artur.ceschin@gmail.com)
