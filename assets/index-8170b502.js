@@ -224,7 +224,7 @@ Error generating stack: `+l.message+`
   margin: 0 auto;
   padding: 2rem;
   margin-top: -5rem;
-`,wP="/assets/cover-23cee59d.svg";function ey({children:e}){return I.jsxs(yP,{children:[I.jsx("img",{className:"cover-image",src:wP,alt:""}),I.jsx(vP,{children:e})]})}const xP=it.div`
+`,wP="/github-blog/assets/cover-23cee59d.svg";function ey({children:e}){return I.jsxs(yP,{children:[I.jsx("img",{className:"cover-image",src:wP,alt:""}),I.jsx(vP,{children:e})]})}const xP=it.div`
   display: flex;
   align-items: center;
   justify-content: center;
