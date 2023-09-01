@@ -28,11 +28,11 @@ export function PostInfo({
     <Header>
       <PostInfoContainer>
         <header>
-          <PostHeaderLinks href="/">
+          <PostHeaderLinks to="/GitHub-Blog">
             <FaChevronLeft />
             voltar
           </PostHeaderLinks>
-          <PostHeaderLinks href={url}>
+          <PostHeaderLinks to={url}>
             ver no github
             <FaArrowUpRightFromSquare />
           </PostHeaderLinks>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { styled } from 'styled-components'
 
 export const PostInfoContainer = styled.header`
@@ -12,7 +13,7 @@ export const PostInfoContainer = styled.header`
     line-height: 130%;
   }
 `
-export const PostHeaderLinks = styled.a`
+export const PostHeaderLinks = styled(Link)`
   display: flex;
   align-items: center;
 

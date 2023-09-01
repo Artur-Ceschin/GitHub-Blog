@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { Header } from '../../../components/Header'
 import { GitHubUser } from '../../../types/githubUser'
 import { ProfileContainer, ProfileContent } from './styles'
@@ -25,9 +26,13 @@ export function Profile({ user }: ProfileProps) {
               <p>{user?.bio}</p>
             </div>
 
-            <a href={user?.html_url} target="_blank" rel="noreferrer">
+            <Link
+              to={user?.html_url ? user.html_url : '/GitHub-Blog'}
+              target="_blank"
+              rel="noreferrer"
+            >
               github <FaArrowUpRightFromSquare />
-            </a>
+            </Link>
           </section>
 
           <ul>
