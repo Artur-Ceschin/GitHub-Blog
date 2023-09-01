@@ -14,6 +14,8 @@
 
 This project was created to work as a personal blog, using issues from this repository as content. Please fill free to add comments if you like.
 
+Live preview: [GitHub-Blog](https://artur-ceschin.github.io/GitHub-Blog/)
+
 ---
 
 ## Project UI 🎨
