@@ -15,7 +15,7 @@ export function Card({ title, createdAt, body, number }: CardProps) {
   const formattedDate = formatRelativeTime(createdAt.toString())
 
   return (
-    <CardContainer href={`/GitHub-Blog/post/${number}`}>
+    <CardContainer to={`/GitHub-Blog/post/${number}`}>
       <header>
         <h2>{title}</h2>
         <span>{formattedDate}</span>
