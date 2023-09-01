@@ -1,16 +1,18 @@
 import { HeaderContainer, HeaderContent } from './styles'
 
 import CoverImage from '../../assets/cover.svg'
-import { Profile } from './Profile'
+import { ReactNode } from 'react'
 
-export function Header() {
+interface HeaderProps {
+  children: ReactNode
+}
+
+export function Header({ children }: HeaderProps) {
   return (
     <HeaderContainer>
-      <img src={CoverImage} alt="" />
+      <img className="cover-image" src={CoverImage} alt="" />
 
-      <HeaderContent>
-        <Profile />
-      </HeaderContent>
+      <HeaderContent>{children}</HeaderContent>
     </HeaderContainer>
   )
 }
